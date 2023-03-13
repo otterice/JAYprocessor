@@ -31,9 +31,10 @@ module top_level(
   PC #(.D(D)) 					  // D sets program counter width
      pc1 (.reset            ,
          .clk              ,
+		 .inB    (datB),
 		 .reljump_en (relj),
 		 .absjump_en (absj),
-		 .target           ,
+		 .target,
 		 .prog_ctr          );
 		 
 	assign rd_addrB = mach_code[2:0]; // regB
@@ -81,6 +82,7 @@ module top_level(
 		 .sc_i   (sc),   // output from sc register
 		 .rslt       ,
 		 .sc_o   (sc_o), // input to sc register
+		 .absj, 
 		 .pari  );  
 		 
 	

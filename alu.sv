@@ -7,7 +7,8 @@ module alu(
   output logic[7:0] rslt,
   output logic sc_o,     // shift_carry out
                pari,     // reduction XOR (output)
-			   zero      // NOR (output)
+			   zero,      // NOR (output)
+			   absj
 );
 
 always_comb begin 
@@ -15,7 +16,6 @@ always_comb begin
   sc_o = 'b0;    
   zero = !rslt;
   pari = ^rslt;
-  $display("idiot", alu_cmd);
 
   case(alu_cmd)
       /*begin
@@ -23,18 +23,20 @@ always_comb begin
 		rslt[0]   = sc_i;
 		sc_o      = ina[7];
       end*/
-    
+    3'b010: begin
+	if (inA == 0) 
+		absj = 'b1;
+	end 
     3'b011: // bitwise XOR
 	  rslt = inA ^ inB;
 	3'b100: begin // Rotate
-	  rslt = (inA << inB) | (inA >> (8-inB));
-	  $display("fkr", inB);
-	  end
+		rslt = (inA << inB) | (inA >> (8-inB));
+	end
 	3'b101: // AND
-	  rslt = {inA & inB};
+		rslt = {inA & inB};
 	3'b111: // add inA to rslt
 	begin
-		  $display("ina, inb", inA, inB);
+		$display("ina, inb", inA, inB);
 
 	  {sc_o,rslt} = inA + inB;
 	  $display("RSLT", rslt);

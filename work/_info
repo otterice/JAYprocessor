@@ -11,24 +11,24 @@ cModel Technology
 dD:/intelFPGA/lab5
 valu
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1678676040
+Z1 !s110 1678679119
 !i10b 1
-!s100 ;e1]9eh8h1KDEfS:j^aOg0
+!s100 AU=:Eh;onPT;P<JBGV45L3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IKe;E]5zA;J3V99bPccliH1
+IgIZJ84I7A[lAf[iQMeLR>3
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dD:/intelFPGA/demo
-w1678671492
+w1678678775
 8D:/intelFPGA/demo/alu.sv
 FD:/intelFPGA/demo/alu.sv
-!i122 661
-L0 3 43
+!i122 706
+L0 3 47
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1678676040.000000
+Z6 !s108 1678679119.000000
 !s107 D:/intelFPGA/demo/alu.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/intelFPGA/demo/alu.sv|
 !i113 1
@@ -38,17 +38,17 @@ vControl
 R0
 R1
 !i10b 1
-!s100 QdQ6l:gldPdgbV_PlW=[P2
+!s100 ]52RJ>z09mMoD=kORYQBb1
 R2
-I2SY_7bW9Di[hRT]Jj`19b3
+I0`QAHlSjR>R0H=0Q=@^Oz3
 R3
 S1
 R4
-w1678671889
+w1678678091
 8D:/intelFPGA/demo/Control.sv
 FD:/intelFPGA/demo/Control.sv
-!i122 662
-L0 2 38
+!i122 707
+L0 2 43
 R5
 r1
 !s85 0
@@ -73,7 +73,7 @@ R4
 w1678675015
 8D:/intelFPGA/demo/dat_mem.sv
 FD:/intelFPGA/demo/dat_mem.sv
-!i122 663
+!i122 708
 L0 2 19
 R5
 r1
@@ -98,7 +98,7 @@ R4
 Z9 w1676974014
 8D:/intelFPGA/demo/instr_ROM.sv
 FD:/intelFPGA/demo/instr_ROM.sv
-!i122 664
+!i122 709
 L0 4 11
 R5
 r1
@@ -113,7 +113,7 @@ R8
 ninstr_@r@o@m
 vmilestone2_quicktest_tb
 R0
-Z10 !s110 1678676041
+R1
 !i10b 1
 !s100 8SUFFkdjFggZFmKAn3hF?2
 R2
@@ -124,13 +124,13 @@ R4
 w1678671299
 8D:/intelFPGA/demo/milestone2_quicktest_tb.sv
 FD:/intelFPGA/demo/milestone2_quicktest_tb.sv
-!i122 665
+!i122 710
 L0 1 40
 R5
 r1
 !s85 0
 31
-Z11 !s108 1678676041.000000
+R6
 !s107 D:/intelFPGA/demo/milestone2_quicktest_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/intelFPGA/demo/milestone2_quicktest_tb.sv|
 !i113 1
@@ -138,24 +138,24 @@ R7
 R8
 vPC
 R0
-R10
+Z10 !s110 1678679120
 !i10b 1
-!s100 VR:oAUncj6oE[>I>fYe2n3
+!s100 eEo:WifR<@T;_JjA3P;S^1
 R2
-Iz0HE^2`@95JgUY=oS@4k40
+IP7H3BmOF3UCQ@kC4?[K[X1
 R3
 S1
 R4
-R9
+w1678679115
 8D:/intelFPGA/demo/PC.sv
 FD:/intelFPGA/demo/PC.sv
-!i122 666
-L0 4 20
+!i122 711
+L0 4 21
 R5
 r1
 !s85 0
 31
-R11
+Z11 !s108 1678679120.000000
 !s107 D:/intelFPGA/demo/PC.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/intelFPGA/demo/PC.sv|
 !i113 1
@@ -175,7 +175,7 @@ R4
 R9
 8D:/intelFPGA/demo/PC_LUT.sv
 FD:/intelFPGA/demo/PC_LUT.sv
-!i122 667
+!i122 712
 L0 1 12
 R5
 r1
@@ -192,17 +192,17 @@ vreg_file
 R0
 R10
 !i10b 1
-!s100 olfnCK]cmP[TV4g[CeKIe0
+!s100 dVb:8>O@ejZObnjZ775N]2
 R2
-IaR0>X5Pf;A2CP_=6;4Q_h3
+ITA09PUF@KTCoi<M0CUaH50
 R3
 S1
 R4
-w1678675606
+w1678678739
 8D:/intelFPGA/demo/reg_file.sv
 FD:/intelFPGA/demo/reg_file.sv
-!i122 668
-L0 3 46
+!i122 713
+L0 3 45
 R5
 r1
 !s85 0
@@ -217,17 +217,17 @@ vtop_level
 R0
 R10
 !i10b 1
-!s100 8=l`KX[7E`ZZhEBjb`5lU1
+!s100 ;dB4`MGe1UXAGW9nkK7V@3
 R2
-ISe2bERINPhN^`I9_[1^nI1
+IK7ZGh<JPhE^i[D]cL]_1z0
 R3
 S1
 R4
-w1678675550
+w1678678428
 8D:/intelFPGA/demo/top_level.sv
 FD:/intelFPGA/demo/top_level.sv
-!i122 669
-L0 2 110
+!i122 714
+L0 2 112
 R5
 r1
 !s85 0

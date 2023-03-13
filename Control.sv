@@ -29,6 +29,11 @@ case(instr)    // override defaults with exceptions
 				MemWrite = 'b1; 
 				ALUSrc = 'b1;
 		  end 
+	'b010: begin
+			Branch = 'b1;
+			RegWrite = 'b0; 
+			
+			end 
 					//rotate operation
 	'b100: ALUSrc = 'b1;
 // ...

@@ -33,7 +33,7 @@ module reg_file #(parameter pw=3)(
   
     always_ff @(posedge clk) begin
 	
-
+	$display("ded", dedReg_out);
   end
 
 // writes are sequential (clocked)

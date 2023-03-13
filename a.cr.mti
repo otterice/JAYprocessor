@@ -1,4 +1,11 @@
-D:/intelFPGA/demo/milestone2_quicktest_tb.sv {1 {vlog -work work -sv -stats=none D:/intelFPGA/demo/milestone2_quicktest_tb.sv
+D:/intelFPGA/demo/dat_mem.sv {1 {vlog -work work -sv -stats=none D:/intelFPGA/demo/dat_mem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dat_mem
+
+Top level modules:
+	dat_mem
+
+} {} {}} D:/intelFPGA/demo/milestone2_quicktest_tb.sv {1 {vlog -work work -sv -stats=none D:/intelFPGA/demo/milestone2_quicktest_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module milestone2_quicktest_tb
 
@@ -11,13 +18,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	PC_LUT
-
-} {} {}} D:/intelFPGA/demo/PC.sv {1 {vlog -work work -sv -stats=none D:/intelFPGA/demo/PC.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module PC
-
-Top level modules:
-	PC
 
 } {} {}} D:/intelFPGA/demo/reg_file.sv {1 {vlog -work work -sv -stats=none D:/intelFPGA/demo/reg_file.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
