@@ -32,8 +32,8 @@ initial begin
   #10 error[0] = (dut.rf1.core[0]) == 8'b00000111;
   #10 error[1] = (dut.rf1.core[1]) == 8'b00000111;
   #10 $display("MEM 0",  dut.dm1.core[0]);
-  #10 $display ("REG 2 ", dut.rf1.core[2]);
-  #10 $display ("REG 1 ", dut.rf1.core[1]);
+  #10 $display ("REG 3 ", dut.rf1.core[3]);
+  #10 $display ("REG 4 ", dut.rf1.core[4]);
   $stop;
 end    
 

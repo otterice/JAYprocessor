@@ -1,12 +1,12 @@
 // cache memory/register file
 // default address pointer width = 4, for 16 registers
 module reg_file #(parameter pw=3)(
-  input[8:0] dat_in,
+  input[7:0] dat_in,
   
   input      clk,
   input      wr_en,           // write enable
   input MemtoReg, 
-  input[pw:0] wr_addr,		  // write address pointer
+  input[2:0] wr_addr,		  // write address pointer
               rd_addrA,		  // read address pointers
 			  rd_addrB,
 
@@ -27,7 +27,14 @@ module reg_file #(parameter pw=3)(
   
   initial begin 
   for (int i = 2; i < $size(core); i++) 
-	core[i] <= 0;
+	core[i] = 0;
+	
+	$display("FUCK YOU", $size(core));
+	
+	for (int i = 2; i < $size(core); i++) begin
+		$display(core[i]);
+		end
+	
 
   end
   

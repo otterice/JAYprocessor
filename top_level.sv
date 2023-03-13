@@ -62,7 +62,7 @@ module top_level(
   .ALUOp());
 // 111001000
 
-  reg_file #(.pw(2)) rf1(.dat_in(MemtoReg? mem_out : rslt),	   // loads, most ops
+  reg_file #(.pw(3)) rf1(.dat_in(MemtoReg? mem_out : rslt),	   // loads, most ops
               .clk         ,
               .wr_en   (RegWrite),
 			  .MemtoReg(MemtoReg),
