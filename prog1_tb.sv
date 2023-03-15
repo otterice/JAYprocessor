@@ -27,19 +27,6 @@ top_level DUT(.clk, .reset, .done);            // replace "proc" with the name o
 
 initial begin
 
-  for (int i = 2; i < $size(DUT.rf1.core); i++) begin
-    DUT.rf1.core[i] = 0;
-
-  end
-    
-    $display("FUCK YOU", $size(DUT.rf1.core));
-    
-    for (int i = 2; i < $size(DUT.rf1.core); i++) begin
-        $display(DUT.rf1.core[i]);
-    end
-
-  DUT.rf1.core[0] = 0;
-  DUT.rf1.core[1] = 1;
   for(int i=0;i<15;i++)	begin
     d1_in[i] = $random>>4;        // create 15 messages	   '1    '0
 // copy 15 original messages into first 30 bytes of memory 
@@ -53,7 +40,7 @@ initial begin
 // generate parity for each message; display result and that of DUT
   $display("start program 1");
   $display();
-  $display(DUT.dm1.core[1], DUT.dm1.core[0],"QWLERJQLEWJRLQEWKJRLKQEWJRLKQEWJRLKQWEJRLKQWEJRLKQWJERLKQJLj");
+  //$display(DUT.dm1.core[1], DUT.dm1.core[0],"QWLERJQLEWJRLQEWKJRLKQEWJRLKQEWJRLKQWEJRLKQWEJRLKQWJERLKQJLj");
   for(int i=0;i<15;i++) begin
     p8 = ^d1_in[i][11:5];
     p4 = (^d1_in[i][11:8])^(^d1_in[i][4:2]); 

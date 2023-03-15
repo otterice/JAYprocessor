@@ -20,22 +20,14 @@ module reg_file #(parameter pw=3)(
   assign datA_out = core[rd_addrA];
   assign datB_out = core[rd_addrB];
   //assign dedReg_out = core[2]; 
-//   assign core[0] = 0;
-//   assign core[1] = 1;
+   assign core[0] = 0;
+   assign core[1] = 1;
   assign dedReg_out = core[2];
  
   
   initial begin 
   for (int i = 2; i < $size(core); i++) 
-    //core[i] = 0;
-    
-    $display("FUCK YOU", $size(core));
-    
-    for (int i = 2; i < $size(core); i++) begin
-        $display(core[i]);
-        end
-    
-
+    core[i] = 0;
   end
   
 always_ff @(posedge clk) begin
@@ -50,10 +42,6 @@ always_ff @(posedge clk) begin
     else if(wr_en)                   // anything but stores or no ops
       core[wr_addr] <= dat_in;
 
-	$display("REG2 CONTENTS ", core[2]);
-	$display("REG3 CONTENTS ", core[3]);
-	$display("REG4 CONTENTS ", core[4]);
-	$display("REG6 CONTENTS ", core[6]);
   end
         
 

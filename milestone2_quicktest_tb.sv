@@ -17,23 +17,22 @@ always begin
 end
 
 initial begin
-  //dut.rf1.core[0] = 8'b10000000;
-  //dut.rf1.core[1] = 8'b00000101;
+  dut.rf1.core[4] = 8'b00011110;
+  dut.rf1.core[2] = 8'b00000010;
+  for (int i = 0; i < 8; i ++) begin
+    #10 $display("reg", i, dut.rf1.core[i]);
+  end
 
-    //dut.rf1.core[2] = 8'b00011000;
-	//#10 $display(dut.rf1.core[2]);
-  //dut.rf1.core[3] = 8'b00000111;
-    //dut.rf1.core[4] = 8'b00000001;
-
+  #10 $display("mem 31", dut.dm1.core[31]);
 
   #10 reset = 1;
   #10 reset = 0;
   #10 wait(done);
-  #10 error[0] = (dut.rf1.core[0]) == 8'b00000111;
-  #10 error[1] = (dut.rf1.core[1]) == 8'b00000111;
-  #10 $display("MEM 0",  dut.dm1.core[0]);
-  #10 $display ("REG 3 ", dut.rf1.core[3]);
-  #10 $display ("REG 4 ", dut.rf1.core[4]);
+
+  for (int i = 0; i < 8; i ++) begin
+    #10 $display("reg", i, dut.rf1.core[i]);
+  end
+  #10 $display("mem 31", dut.dm1.core[31]);
   $stop;
 end    
 

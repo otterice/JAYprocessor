@@ -100,7 +100,7 @@ module top_level(
 // registered flags from ALU
   always_ff @(posedge clk) begin
 
-    $display("mem_out ", mem_out, " datB ", datB);
+    //$display("mem_out ", mem_out, " datB ", datB);
     pariQ <= pari;
 	zeroQ <= zero;
     if(sc_clr)
