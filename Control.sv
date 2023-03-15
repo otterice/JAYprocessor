@@ -28,6 +28,7 @@ case(instr)    // override defaults with exceptions
   'b001:  begin      //store operation
 				MemWrite = 'b1; 
 				ALUSrc = 'b1;
+        RegWrite = 'b0;
 		  end 
 	'b010: begin
 			Branch = 'b1;

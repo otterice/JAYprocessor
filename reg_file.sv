@@ -20,14 +20,14 @@ module reg_file #(parameter pw=3)(
   assign datA_out = core[rd_addrA];
   assign datB_out = core[rd_addrB];
   //assign dedReg_out = core[2]; 
-//   assign core[0] = 0;
-//   assign core[1] = 1;
+   assign core[0] = 0;
+   assign core[1] = 1;
   assign dedReg_out = core[2];
  
   
   initial begin 
   for (int i = 2; i < $size(core); i++) 
-    //core[i] = 0;
+    core[i] = 0;
     
     $display("FUCK YOU", $size(core));
     
