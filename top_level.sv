@@ -75,6 +75,7 @@ module top_level(
 	assign immed = rd_addrB;
   assign muxB = ALUSrc? immed : datB;
 
+
   alu alu1(.alu_cmd(alu_cmd),
          .inA    (datA),
 		 .inB    (muxB),
@@ -89,7 +90,7 @@ module top_level(
   dat_mem dm1(.dat_in(dedReg_out)  ,  // from reg_file
              .clk           ,
 			 .wr_en  (MemWrite), // stores
-			 .addr   (datB),
+			 .addr   (datA),
 			 .immed (immed), 
              .dat_out(mem_out));
 			 
@@ -99,6 +100,7 @@ module top_level(
 // registered flags from ALU
   always_ff @(posedge clk) begin
 
+    $display("mem_out ", mem_out, " datB ", datB);
     pariQ <= pari;
 	zeroQ <= zero;
     if(sc_clr)
@@ -107,6 +109,6 @@ module top_level(
       sc_in <= sc_o;
   end
 
-  assign done = prog_ctr == 128;
+  assign done = prog_ctr == 296;
  
 endmodule

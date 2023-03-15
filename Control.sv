@@ -36,6 +36,8 @@ case(instr)    // override defaults with exceptions
 			end 
 					//rotate operation
 	'b100: ALUSrc = 'b1;
+  //ANDDDDDDD
+  'b101: ALUSrc = 'b1;
 // ...
 endcase
 
