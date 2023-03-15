@@ -36,12 +36,14 @@ always_comb begin
 		rslt = {inA & inB};
 	3'b111: // add inA to rslt
 	begin
-		$display("ina, inb", inA, inB);
+		$display("ina, inb", inA, " ", inB);
 
 	  {sc_o,rslt} = inA + inB;
-	  $display("RSLT", rslt);
 	  end
+
   endcase
+  	  	  $display("RSLT", rslt);
+
 end
    
 endmodule

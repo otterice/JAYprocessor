@@ -1,6 +1,6 @@
 // sample top level design
 module top_level(
-  input        clk, reset, req, 
+  input        clk, reset, //req, 
   output logic done);
   parameter D = 12,             // program counter width
     A = 3;             		  // ALU command bit width
@@ -40,7 +40,6 @@ module top_level(
 	assign rd_addrB = mach_code[2:0]; // regB
   assign rd_addrA = mach_code[5:3]; // regA
   assign alu_cmd  = mach_code[8:6]; // 111
-
 
 // lookup table to facilitate jumps/branches
   PC_LUT #(.D(D))
@@ -99,7 +98,7 @@ module top_level(
 
 // registered flags from ALU
   always_ff @(posedge clk) begin
-  
+
     pariQ <= pari;
 	zeroQ <= zero;
     if(sc_clr)
