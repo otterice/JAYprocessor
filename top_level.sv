@@ -53,7 +53,7 @@ module top_level(
 // control decoder
   Control ctl1(.instr(alu_cmd),
   .RegDst  (), 
-  .Branch  (relj)  , 
+  .Branch  (absj)  , 
   .MemWrite , 
   .ALUSrc   , 
   .RegWrite   ,     
@@ -100,7 +100,7 @@ module top_level(
 // registered flags from ALU
   always_ff @(posedge clk) begin
 
-    $display("mem_out ", mem_out, " datB ", datB);
+    //$display("mem_out ", mem_out, " datB ", datB);
     pariQ <= pari;
 	zeroQ <= zero;
     if(sc_clr)
@@ -109,6 +109,6 @@ module top_level(
       sc_in <= sc_o;
   end
 
-  assign done = prog_ctr == 296;
+  assign done = prog_ctr > 318;
  
 endmodule

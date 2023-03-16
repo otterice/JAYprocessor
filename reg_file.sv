@@ -28,14 +28,6 @@ module reg_file #(parameter pw=3)(
   initial begin 
   for (int i = 2; i < $size(core); i++) 
     core[i] = 0;
-    
-    $display("FUCK YOU", $size(core));
-    
-    for (int i = 2; i < $size(core); i++) begin
-        $display(core[i]);
-        end
-    
-
   end
   
 always_ff @(posedge clk) begin
@@ -45,15 +37,14 @@ always_ff @(posedge clk) begin
 
 // writes are sequential (clocked)
   always_ff @(posedge clk) begin
+    $display("REG 7 ", core[7]);
+    $display("REG 5 ", core[5]);
+    $display("REG 6 ", core[6]);
     if(MemtoReg)
         core[2] <= dat_in;
     else if(wr_en)                   // anything but stores or no ops
       core[wr_addr] <= dat_in;
 
-	$display("REG2 CONTENTS ", core[2]);
-	$display("REG3 CONTENTS ", core[3]);
-	$display("REG4 CONTENTS ", core[4]);
-	$display("REG6 CONTENTS ", core[6]);
   end
         
 

@@ -1,0 +1,6423 @@
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.prog1_tb
+# vsim -gui work.prog1_tb 
+# Start time: 15:30:01 on Mar 15,2023
+# Loading sv_std.std
+# Loading work.prog1_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# FUCK YOU          8
+# FUCK YOU          8
+# FUCK YOU          8
+# FUCK YOU          8
+# FUCK YOU          8
+# FUCK YOU          8
+#   x
+#   x
+#   x
+#   x
+#   x
+#   x
+# FUCK YOU          8
+#   0
+#   0
+#   0
+#   0
+#   0
+#   0
+# herex
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# here5
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out  82 datB   0
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   3 datB   1
+# here4
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   1
+# REG6 CONTENTS   0
+# mem_out 232 datB   1
+# here7
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   2
+# REG6 CONTENTS   0
+# mem_out   5 datB   1
+# here4
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   3
+# REG6 CONTENTS   0
+# mem_out  96 datB   1
+# here7
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   6
+# REG6 CONTENTS   0
+# mem_out   5 datB   1
+# here4
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   7
+# REG6 CONTENTS   0
+# mem_out 176 datB   1
+# here7
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS  14
+# REG6 CONTENTS   0
+# mem_out   5 datB   1
+# here4
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS  15
+# REG6 CONTENTS   0
+# mem_out  48 datB   1
+# here0
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out   3 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out  82 datB   0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 232 datB   3
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   3
+# mem_out  96 datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out 102 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out   3 datB   0
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   3
+# mem_out 152 datB   0
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 129
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out   3 datB   0
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   3
+# mem_out   7 datB   3
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 192
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 102 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out  82 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  82
+# mem_out   x datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 164
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 102 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  82
+# mem_out   x datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  73
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out 102 datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out   3 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  82
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 146
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  82
+# mem_out   x datB  30
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  37
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out   5 datB   1
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out   3 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   1
+# mem_out   3 datB   0
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   0
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS   3
+# mem_out 176 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  96
+# mem_out  82 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  96
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  96
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  96
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  96
+# mem_out   x datB 146
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  96
+# mem_out  96 datB  82
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS  96
+# mem_out   x datB   8
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 104
+# mem_out  82 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 104
+# mem_out 176 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 104
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 104
+# mem_out   x datB  30
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 104
+# mem_out   x datB   1
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 104
+# mem_out 232 datB   1
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 104
+# mem_out   x datB   2
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 106
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 106
+# mem_out   x datB   0
+# here7
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 106
+# mem_out 102 datB 106
+# here1
+# REG2 CONTENTS 106
+# REG3 CONTENTS   0
+# REG4 CONTENTS  30
+# REG6 CONTENTS 106
+# mem_out   x datB   1
+# here0
+# REG2 CONTENTS 106
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS 106
+# mem_out  82 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS 106
+# mem_out   x datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  82
+# mem_out   x datB   2
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  41
+# mem_out   x datB   2
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   1
+# mem_out 102 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 232 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   7 datB  32
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 152 datB   3
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 232 datB   3
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  96 datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 176 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB  32
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   5 datB   1
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   5 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  32
+# mem_out   x datB  16
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  48 datB   0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   7 datB  48
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 152 datB   3
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 176 datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB  48
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   7 datB  48
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB   3
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  96 datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 176 datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 176 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 176 datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   7 datB  48
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB   3
+# here4
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 152 datB   3
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here7
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB   3
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  96 datB   1
+# here3
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 176 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 176 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 176 datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB  48
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here4
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 232 datB  82
+# here5
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   1
+# here3
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 176 datB   0
+# here0
+# REG2 CONTENTS  82
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   1
+# here5
+# REG2 CONTENTS   3
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  96 datB   1
+# here3
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   1
+# here5
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here4
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  96 datB   0
+# here3
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here4
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 102 datB  48
+# here3
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here5
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# here7
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here4
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here3
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   5 datB   0
+# here7
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   x datB   0
+# here5
+# REG2 CONTENTS   1
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out   3 datB   0
+# here7
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out 102 datB  48
+# here1
+# REG2 CONTENTS  48
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS  48
+# mem_out  82 datB   0
+# start program 1
+#  
+#   3 48QWLERJQLEWJRLQEWKJRLKQEWJRLKQEWJRLKQWEJRLKQWEJRLKQWJERLKQJLj
+# 0110101000110000
+# 01101010xxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1011110110000001
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1010110000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1010110001100000
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1111011000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 0011001110010110
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 0000100101100000
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1010010100001111
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1100011000000101
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1001101000000011
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1110001001111011
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1001101000111111
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1010111111110101
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1110111010000111
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+# 1101001011101110
+# xxxxxxxxxxxxxxxx
+# Reg 4  0
+# Reg 5  0
+# Reg 6 48
+# erroneous output
+#  
+#   x106  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  xprogram 1 score =     0 out of    15
+# herex
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv(89)
+#    Time: 2995 ns  Iteration: 0  Instance: /prog1_tb
+# Break in Module prog1_tb at C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv line 89
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.prog1_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+vsim -gui work.milestone2_quicktest_tb
+# End time: 15:36:57 on Mar 15,2023, Elapsed time: 0:06:56
+# Errors: 0, Warnings: 4
+# vsim -gui work.milestone2_quicktest_tb 
+# Start time: 15:36:58 on Mar 15,2023
+# Loading sv_std.std
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 1 of file "mach_code.txt".    : C:/Users/perso/Downloads/JAYprocessor/instr_ROM.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/ir1
+# FUCK YOU          8
+# FUCK YOU          8
+# FUCK YOU          8
+# FUCK YOU          8
+# FUCK YOU          8
+# FUCK YOU          8
+#   x
+#   x
+#   x
+#   x
+#   x
+#   x
+# herex
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# reg          0  x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# reg          1  x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# reg          2  x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# reg          3  x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# reg          4  x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# reg          5  x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# reg          6  x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# reg          7  x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG 3   x
+# REG2 CONTENTS   x
+# REG3 CONTENTS   x
+# REG4 CONTENTS   x
+# REG6 CONTENTS   x
+# mem_out   x datB   x
+# REG 4   x
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(40)
+#    Time: 3085 ps  Iteration: 0  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 40
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 1 of file "mach_code.txt".    : C:/Users/perso/Downloads/JAYprocessor/instr_ROM.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/ir1
+# herex
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# reg          0  x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# reg          1  x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# reg          2  0
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# reg          3  0
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# reg          4  0
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# reg          5  0
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# reg          6  0
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# reg          7  0
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# REG2 CONTENTS   0
+# REG3 CONTENTS   0
+# REG4 CONTENTS   0
+# REG6 CONTENTS   0
+# mem_out   x datB   x
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(40)
+#    Time: 3065 ps  Iteration: 2  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 40
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 1 of file "mach_code.txt".    : C:/Users/perso/Downloads/JAYprocessor/instr_ROM.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/ir1
+# herex
+# mem_out   x datB   x
+# reg          0  x
+# mem_out   x datB   x
+# reg          1  x
+# mem_out   x datB   x
+# reg          2  0
+# mem_out   x datB   x
+# reg          3  0
+# mem_out   x datB   x
+# reg          4  0
+# mem_out   x datB   x
+# reg          5  0
+# mem_out   x datB   x
+# reg          6  0
+# mem_out   x datB   x
+# reg          7  0
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# mem_out   x datB   x
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(40)
+#    Time: 3065 ps  Iteration: 2  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 40
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 1 of file "mach_code.txt".    : C:/Users/perso/Downloads/JAYprocessor/instr_ROM.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/ir1
+# herex
+# reg          0  x
+# reg          1  x
+# reg          2  0
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(40)
+#    Time: 3065 ps  Iteration: 2  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 40
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 1 of file "mach_code.txt".    : C:/Users/perso/Downloads/JAYprocessor/instr_ROM.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/ir1
+# herex
+# reg          0  x
+# reg          1  x
+# reg          2  0
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# reg          0  x
+# reg          1  x
+# reg          2  0
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(41)
+#    Time: 3145 ps  Iteration: 0  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 41
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 1 of file "mach_code.txt".    : C:/Users/perso/Downloads/JAYprocessor/instr_ROM.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/ir1
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  0
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# reg          0  0
+# reg          1  1
+# reg          2  0
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(41)
+#    Time: 3145 ps  Iteration: 0  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 41
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  0
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# here7
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  1
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(41)
+#    Time: 3145 ps  Iteration: 0  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 41
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  0
+# reg          3  0
+# reg          4 30
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# mem 31  x
+# here1
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  0
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# mem 31  0
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(45)
+#    Time: 3165 ps  Iteration: 0  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 45
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  2
+# reg          3  0
+# reg          4 30
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# mem 31  x
+# here1
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  2
+# reg          3  0
+# reg          4  0
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# mem 31  2
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(46)
+#    Time: 3165 ps  Iteration: 0  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 46
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f; run -all
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  2
+# reg          3  0
+# reg          4 30
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# mem 31  x
+# here1
+# herex
+# reg          0  0
+# reg          1  1
+# reg          2  2
+# reg          3  0
+# reg          4 30
+# reg          5  0
+# reg          6  0
+# reg          7  0
+# mem 31  2
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv(36)
+#    Time: 3165 ps  Iteration: 0  Instance: /milestone2_quicktest_tb
+# Break in Module milestone2_quicktest_tb at C:/Users/perso/Downloads/JAYprocessor/milestone2_quicktest_tb.sv line 36
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.milestone2_quicktest_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /milestone2_quicktest_tb/dut/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+vsim -gui work.prog1_tb
+# End time: 16:17:01 on Mar 15,2023, Elapsed time: 0:40:03
+# Errors: 0, Warnings: 4
+# vsim -gui work.prog1_tb 
+# Start time: 16:17:01 on Mar 15,2023
+# Loading sv_std.std
+# Loading work.prog1_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+restart -f; run -all
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+# FUCK YOU          8
+#   0
+#   0
+#   0
+#   0
+#   0
+#   0
+# start program 1
+#  
+#   3 82QWLERJQLEWJRLQEWKJRLKQEWJRLKQEWJRLKQWEJRLKQWEJRLKQWJERLKQJLj
+# 0110101000110000
+# 0110101000101111
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1011110110000001
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010110000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010110001100000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1111011000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 0011001110010110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 0000100101100000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010010100001111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1100011000000101
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1001101000000011
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1110001001111011
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1001101000111111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010111111110101
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1110111010000111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1101001011101110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+#  47106  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  xprogram 1 score =     0 out of    15
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv(89)
+#    Time: 2995 ns  Iteration: 0  Instance: /prog1_tb
+# Break in Module prog1_tb at C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv line 89
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f; run -all
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.prog1_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# start program 1
+#  
+#   3 82QWLERJQLEWJRLQEWKJRLKQEWJRLKQEWJRLKQWEJRLKQWEJRLKQWJERLKQJLj
+# 0110101000110000
+# 0110101000101111
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1011110110000001
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010110000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010110001100000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1111011000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 0011001110010110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 0000100101100000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010010100001111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1100011000000101
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1001101000000011
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1110001001111011
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1001101000111111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010111111110101
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1110111010000111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1101001011101110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+#  47106  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  xprogram 1 score =     0 out of    15
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv(76)
+#    Time: 2995 ns  Iteration: 0  Instance: /prog1_tb
+# Break in Module prog1_tb at C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv line 76
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# Compile of alu.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of dat_mem.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of milestone2_quicktest_tb.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_LUT.sv was successful.
+# Compile of prog1_tb.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of top_level.sv was successful.
+# 10 compiles, 0 failed with no errors.
+restart -f; run -all
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.prog1_tb
+# Loading work.top_level
+# Loading work.PC
+# Loading work.PC_LUT
+# Loading work.instr_ROM
+# Loading work.Control
+# Loading work.reg_file
+# Loading work.alu
+# Loading work.dat_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# start program 1
+#  
+# 0110101000110000
+# 0110101000101111
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1011110110000001
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010110000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010110001100000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1111011000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 0011001110010110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 0000100101100000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010010100001111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1100011000000101
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1001101000000011
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1110001001111011
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1001101000111111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1010111111110101
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1110111010000111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+# 1101001011101110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5255
+# Reg 6 47
+# erroneous output
+#  
+#  47106  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  xprogram 1 score =     0 out of    15
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv(76)
+#    Time: 2995 ns  Iteration: 0  Instance: /prog1_tb
+# Break in Module prog1_tb at C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv line 76
+# A time value could not be extracted from the current line
+restart -f; run -all
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'addr'. The port definition is at: C:/Users/perso/Downloads/JAYprocessor/PC_LUT.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/pl1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /prog1_tb/DUT/alu1 File: C:/Users/perso/Downloads/JAYprocessor/top_level.sv Line: 79
+# ** Warning: (vsim-3722) C:/Users/perso/Downloads/JAYprocessor/top_level.sv(79): [TFMPC] - Missing connection for port 'zero'.
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# start program 1
+#  
+# 0110101000110000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1011110110000001
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1010110000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1010110001100000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1111011000000110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 0011001110010110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 0000100101100000
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1010010100001111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1100011000000101
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1001101000000011
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1110001001111011
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1001101000111111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1010111111110101
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1110111010000111
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+# 1101001011101110
+# xxxxxxxxxxxxxxxx
+# Reg 4 30
+# Reg 5  0
+# Reg 6  0
+# erroneous output
+#  
+#   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  xprogram 1 score =     0 out of    15
+# ** Note: $stop    : C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv(76)
+#    Time: 2995 ns  Iteration: 0  Instance: /prog1_tb
+# Break in Module prog1_tb at C:/Users/perso/Downloads/JAYprocessor/prog1_tb.sv line 76

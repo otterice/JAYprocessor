@@ -40,7 +40,7 @@ initial begin
 // generate parity for each message; display result and that of DUT
   $display("start program 1");
   $display();
-  $display(DUT.dm1.core[1], DUT.dm1.core[0],"QWLERJQLEWJRLQEWKJRLKQEWJRLKQEWJRLKQWEJRLKQWEJRLKQWJERLKQJLj");
+  //$display(DUT.dm1.core[1], DUT.dm1.core[0],"QWLERJQLEWJRLQEWKJRLKQEWJRLKQEWJRLKQWEJRLKQWEJRLKQWJERLKQJLj");
   for(int i=0;i<15;i++) begin
     p8 = ^d1_in[i][11:5];
     p4 = (^d1_in[i][11:8])^(^d1_in[i][4:2]); 

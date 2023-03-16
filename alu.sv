@@ -24,8 +24,7 @@ always_comb begin
 		sc_o      = ina[7];
       end*/
     3'b010: begin
-	if (inA == 0) 
-		absj = 'b1;
+	absj = inA != 0;
 	end 
     3'b011: // bitwise XOR
 	  rslt = inA ^ inB;

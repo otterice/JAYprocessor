@@ -21,6 +21,7 @@ module PC #(parameter D=12)(
     else if(absjump_en)
 	  
 	  prog_ctr <= inB;
+    //absjump_en <= 0;
 	else
 	  prog_ctr <= prog_ctr + 'b1;
 
