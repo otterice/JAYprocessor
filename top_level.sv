@@ -11,8 +11,7 @@ module top_level(
               muxB, 
 			  rslt,               // alu output
               immed,
-			  mem_out,
-			  dedReg_out;
+			  mem_out;
   logic sc_in,   				  // shift/carry out from/to ALU
    		pariQ,              	  // registered parity flag from ALU
 		zeroQ;                    // registered zero flag from ALU 
@@ -65,12 +64,12 @@ module top_level(
               .clk         ,
               .wr_en   (RegWrite),
 			  .MemtoReg(MemtoReg),
+        .MemWrite(MemWrite),
               .rd_addrA(rd_addrA),
               .rd_addrB(rd_addrB),
               .wr_addr (rd_addrA),      // in place operation
               .datA_out(datA),
-              .datB_out(datB),
-			  .dedReg_out(dedReg_out)); 
+              .datB_out(datB)); 
 
 	assign immed = rd_addrB;
   assign muxB = ALUSrc? immed : datB;
@@ -87,7 +86,7 @@ module top_level(
 		 
 	
 
-  dat_mem dm1(.dat_in(dedReg_out)  ,  // from reg_file
+  dat_mem dm1(.dat_in(datB)  ,  // from reg_file
              .clk           ,
 			 .wr_en  (MemWrite), // stores
 			 .addr   (datA),

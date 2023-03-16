@@ -18,9 +18,7 @@ always_comb begin
   $display("here", instr);
 // sample values only -- use what you need
 case(instr)    // override defaults with exceptions
-  'b000:  begin					// load operation
-               MemWrite = 'b0;      
-               RegWrite = 'b1;      
+  'b000:  begin					// load operation         
 			   ALUSrc = 'b1;
 			   MemtoReg = 'b1; 
 			   
