@@ -33,6 +33,8 @@ always_comb begin
 	end
 	3'b101: // AND
 		rslt = {inA & inB};
+	3'b110: // OR
+		rslt = inA || inB;
 	3'b111: // add inA to rslt
 	begin
 		//$display("ina, inb", inA, " ", inB);

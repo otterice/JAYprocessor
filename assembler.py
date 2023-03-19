@@ -7,11 +7,13 @@ opcodes = {
     "xor": "011",
     "sll": "100",
     "and": "101",
+    "or": "110",
     "add": "111"
 }
 
 file = open(sys.argv[1])
-output = open("mach_code.txt", "w")
+output_file = sys.argv[2]
+output = open(output_file, "w")
 
 for line in file:
     machCode = ""

@@ -1,0 +1,353 @@
+AND R3 0 # Loop 0-29
+AND R4 0 # Loop 30-59
+ADD R4 R1 # 0000 0001 = 1
+SLL R4 1 # 0000 0010 = 2
+ADD R4 R1 # 0000 0011 = 3
+SLL R4 1 # 0000 0110 = 6
+ADD R4 R1 # 0000 0111 = 7
+SLL R4 1 # 0000 1110 = 14
+ADD R4 R1 # 0000 1111 = 15
+SLL R4 1 # 0001 111 0 = 30
+
+# R0 -> individual parities, R5 -> P, R6 -> Q, R7 -> S
+AND R5 0
+AND R6 0
+AND R7 0
+
+----- calculate p8 -----
+AND R0 0
+
+LW R4 1
+SLL R2 1 # b11
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 2 # b10
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 3 # b9
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 4 # b8
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 5 # b7
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 6 # b6
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 7 # b5
+AND R2 1
+XOR R0 R2
+
+ADD R5 R0 # 0 0 0 0 0 0 0 p8
+SLL R5 1  # 0 0 0 0 0 0 p8 0
+
+----- calculate p4 -----
+AND R0 0
+
+LW R4 1 
+SLL R2 1 # b11
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 2 # b10
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 3 # b9
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 4 # b8
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 1 # b4
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 2 # b3
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 3 # b2
+AND R2 1
+XOR R0 R2
+
+ADD R5 R0 # 0 0 0 0 0 0 p8 p4
+SLL R5 1  # 0 0 0 0 0 p8 p4 0
+
+----- calculate p2 -----
+AND R0 0
+
+LW R4 1 
+SLL R2 1 # b11
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 2 # b10
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 5 # b7
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 6 # b6
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 1 # b4
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 2 # b3
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 5 # b1
+AND R2 1
+XOR R0 R2
+
+ADD R5 R0 # 0 0 0 0 0 p8 p4 p2
+SLL R5 1  # 0 0 0 0 p8 p4 p2 0
+
+----- calculate p1 -----
+AND R0 0
+
+LW R4 1 
+SLL R2 1 # b11
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 3 # b9
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 5 # b7
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 7 # b5
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 1 # b4
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 3 # b2
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 5 # b1
+AND R2 1
+XOR R0 R2
+
+ADD R5 R0 # 0 0 0 0 p8 p4 p2 p1
+SLL R5 1  # 0 0 0 p8 p4 p2 p1 0
+
+----- calculate p0 -----
+AND R0 0
+
+LW R4 1 # load b11:b5 p8
+SLL R2 1 # b11
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 2 # b10
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 3 # b9
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 4 # b8
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 5 # b7
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 6 # b6
+AND R2 1
+XOR R0 R2
+
+LW R4 1
+SLL R2 7 # b5
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 1 # b4
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 2 # b3
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 3 # b2
+AND R2 1
+XOR R0 R2
+
+LW R4 0 
+SLL R2 5 # b1
+AND R2 1
+XOR R0 R2
+
+AND R2 0
+ADD R2 R5 # copy over p8421
+SLL R2 4 # p8
+AND R2 1
+XOR R0 R2
+
+AND R2 0
+ADD R2 R5 # copy over p8421
+SLL R2 5 # p4
+AND R2 1
+XOR R0 R2
+
+AND R2 0
+ADD R2 R5 # copy over p8421
+SLL R2 6 # p2
+AND R2 1
+XOR R0 R2
+
+AND R2 0
+ADD R2 R5 # copy over p8421
+SLL R2 7 # p1
+AND R2 1
+XOR R0 R2
+
+ADD R5 R0 # 0 0 0 p8 p4 p2 p1 p0
+AND R2 0
+ADD R2 R5 # move parities to R2
+
+# create 60 for storing q8q4q2q1q0
+AND R0 0
+ADD R0 R1 # 0000 0001 = 1
+SLL R0 1 # 0000 0010 = 2
+ADD R0 R1 # 0000 0011 = 3
+SLL R0 1 # 0000 0110 = 6
+ADD R0 R1 # 0000 0111 = 7
+SLL R0 1 # 0000 1110 = 14
+ADD R0 R1 # 0000 1111 = 15
+SLL R0 2 # 0011 1100 = 60
+
+SW R0 0 # put parities in mem[60]
+
+----- calculate p8p4p2p1p0 -----
+AND R5 0
+
+LW R4 1
+AND R2 1 # p8
+ADD R5 R2
+SLL R5 1 # 0 0 0 0 0 0 p8 0
+
+LW R4 0
+SLL R2 4 # p4
+AND R2 1
+ADD R5 R2
+SLL R5 1 # 0 0 0 0 0 p8 p4 0
+
+LW R4 0
+SLL R2 6 # p2
+AND R2 1
+ADD R5 R2
+SLL R5 1 # 0 0 0 0 p8 p4 p2 0
+
+LW R4 0
+SLL R2 7 # p1
+AND R2 1
+ADD R5 R2
+SLL R5 1 # 0 0 0 p8 p4 p2 p1 0
+
+LW R4 0
+AND R2 1 # p0
+ADD R5 R2 # 0 0 0 p8 p4 p2 p1 p0
+
+LW R0 0 # R0 BETTER STILL BE 60!, get mem[60]
+XOR R5 R2 # P
+
+AND R6 0 # to store F1F0
+
+AND R7 0
+ADD R7 R5
+SLL R7 7 # s1
+AND R7 1
+
+OR R6 R7 # or S1
+
+AND R7 0
+ADD R7 R5
+SLL R7 6
+AND R7 1
+
+OR R6 R7 # or S2
+
+AND R7 0
+ADD R7 R5
+SLL R7 5
+AND R7 1
+
+OR R6 R7 # or S4
+
+AND R7 0
+ADD R7 R5
+SLL R7 4
+AND R7 1
+
+OR R6 R7 # or S8
+
+SLL R6 1 # 0....F1 0
+
+AND R7 0
+ADD R7 R5
+AND R7 1
+ADD R6 R7 # 0.... F1 F0
+SLL R6 6 # F1 F0 ..... 0
+
+AND R2 0
+ADD R2 R6
+SW R3 1
