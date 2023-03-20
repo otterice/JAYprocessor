@@ -23,6 +23,18 @@ always_comb begin
 		rslt[0]   = sc_i;
 		sc_o      = ina[7];
       end*/
+	  3'b000: // add inA to rslt
+	begin
+		//$display("ina, inb", inA, " ", inB);
+
+	  {sc_o,rslt} = inA + inB;
+	  end
+	  3'b001: // add inA to rslt
+	begin
+		//$display("ina, inb", inA, " ", inB);
+
+	  {sc_o,rslt} = inA + inB;
+	  end
     3'b010: begin
 	absj = inA != 0;
 	end 

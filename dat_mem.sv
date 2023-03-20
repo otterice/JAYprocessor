@@ -10,11 +10,11 @@ module dat_mem (
   logic[7:0] core[256];       // 2-dim array  8 wide  256 deep
 
 // reads are combinational; no enable or clock required
-  assign dat_out = core[addr + immed];
+  assign dat_out = core[addr];
 
 // writes are sequential (clocked) -- occur on stores or pushes 
   always_ff @(posedge clk)
     if(wr_en)				  // wr_en usually = 0; = 1 		
-      core[addr + immed] <= dat_in; 
+      core[addr] <= dat_in; 
 
 endmodule

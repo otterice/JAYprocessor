@@ -89,7 +89,7 @@ module top_level(
   dat_mem dm1(.dat_in(datB)  ,  // from reg_file
              .clk           ,
 			 .wr_en  (MemWrite), // stores
-			 .addr   (datA),
+			 .addr   (rslt),
 			 .immed (immed), 
              .dat_out(mem_out));
 			 
