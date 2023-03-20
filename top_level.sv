@@ -108,6 +108,6 @@ module top_level(
       sc_in <= sc_o;
   end
 
-  assign done = prog_ctr > 318;
+  assign done = prog_ctr > 710;
  
 endmodule

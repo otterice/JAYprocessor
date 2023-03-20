@@ -57,11 +57,13 @@ initial begin
   end
   #10ns reset   = 1;
   #10ns reset   = 0;
-  wait(done);
+  #10ns wait(done);
   $display();
   $display("start program 2");
   $display();
   for(int i=0; i<15; i++) begin
+    $displayb("GOOD ", d2_good[i]);
+    $displayb("BAD  ", d2_bad[i]);
     $displayb({5'b0,d2_in[i]});
     $writeb  (DUT.dm1.core[1+2*i]);
     $displayb(DUT.dm1.core[0+2*i]);
