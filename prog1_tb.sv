@@ -28,7 +28,7 @@ top_level DUT(.clk, .reset, .done);            // replace "proc" with the name o
 initial begin
 
   for(int i=0;i<15;i++)	begin
-    d1_in[i] = $random>>4;        // create 15 messages	   '1    '0
+    d1_in[i] = $urandom>>4;        // create 15 messages	   '1    '0
 // copy 15 original messages into first 30 bytes of memory 
 // rename "dm1" and/or "core" if you used different names for these
     DUT.dm1.core[2*i+1]  = {5'b0,d1_in[i][11:9]};
@@ -51,10 +51,10 @@ initial begin
     $displayb ({d1_in[i][11:5],p8,d1_in[i][4:2],p4,d1_in[i][1],p2,p1,p0});
     $writeb  (DUT.dm1.core[31+2*i]);
     $displayb(DUT.dm1.core[30+2*i]);
-	$display("Reg 4", DUT.rf1.core[4]);
-		$display("Reg 5", DUT.rf1.core[5]);
+	//$display("Reg 4", DUT.rf1.core[4]);
+		//$display("Reg 5", DUT.rf1.core[5]);
 
-	$display("Reg 6", DUT.rf1.core[6]);
+	//$display("Reg 6", DUT.rf1.core[6]);
 
 	
     if({DUT.dm1.core[31+2*i],DUT.dm1.core[30+2*i]} == {d1_in[i][11:5],p8,d1_in[i][4:2],p4,d1_in[i][1],p2,p1,p0}) begin
@@ -67,10 +67,10 @@ initial begin
     case1++;
   end
   
-  for (int i = 30; i < 60; i++) begin 
+  /*for (int i = 30; i < 60; i++) begin 
 	$write(DUT.dm1.core[i]);
   
-  end
+  end*/
   
   $display("program 1 score = %d out of %d",score1,case1);
   #10ns $stop;

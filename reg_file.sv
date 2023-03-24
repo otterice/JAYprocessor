@@ -30,10 +30,10 @@ module reg_file #(parameter pw=3)(
   
 // writes are sequential (clocked)
   always_ff @(posedge clk) begin
-    $display("REG 3 ", core[3]);
-    $display("REG 7 ", core[7]);
-    $display("REG 5 ", core[5]);
-    $display("REG 6 ", core[6]);
+    //$display("REG 3 ", core[3]);
+    //$display("REG 7 ", core[7]);
+    //$display("REG 5 ", core[5]);
+    //$display("REG 6 ", core[6]);
     if(MemtoReg)
         core[2] <= dat_in;
     else if(wr_en)                   // anything but stores or no ops

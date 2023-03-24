@@ -37,7 +37,7 @@ top_level DUT(.clk, .reset, .done);	 // replace "top_level" with the name of you
 initial begin
 // generate parity from random 11-bit messages 
   for(int i=0; i<15; i++) begin
-	d2_in[i] = $random;
+	d2_in[i] = $random(9);
     p8 = ^d2_in[i][11:5];
     p4 = (^d2_in[i][11:8])^(^d2_in[i][4:2]); 
     p2 = d2_in[i][11]^d2_in[i][10]^d2_in[i][7]^d2_in[i][6]^d2_in[i][4]^d2_in[i][3]^d2_in[i][1];
@@ -45,7 +45,7 @@ initial begin
     p0 = ^d2_in[i]^p8^p4^p2^p1;
     d2_good[i] = {d2_in[i][11:5],p8,d2_in[i][4:2],p4,d2_in[i][1],p2,p1,p0};
 // flip one bit
-    flip[i] = $random;	  // 'b1000000;
+    flip[i] = $random(8);	  // 'b1000000;
     d2_bad1[i] = d2_good[i] ^ (1'b1<<flip[i]);
 // flip second bit about 25% of the time (flip2<16)		// 00_0010     1010
 // if flip2[5:4]!=0, flip2 will have no effect, and we'll have a one-bit flip
