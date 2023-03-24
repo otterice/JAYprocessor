@@ -37,7 +37,7 @@ top_level DUT(.clk, .reset, .done);	 // replace "top_level" with the name of you
 initial begin
 // generate parity from random 11-bit messages 
   for(int i=0; i<15; i++) begin
-	d2_in[i] = $random(9);
+	d2_in[i] = $urandom;
     p8 = ^d2_in[i][11:5];
     p4 = (^d2_in[i][11:8])^(^d2_in[i][4:2]); 
     p2 = d2_in[i][11]^d2_in[i][10]^d2_in[i][7]^d2_in[i][6]^d2_in[i][4]^d2_in[i][3]^d2_in[i][1];
@@ -45,7 +45,7 @@ initial begin
     p0 = ^d2_in[i]^p8^p4^p2^p1;
     d2_good[i] = {d2_in[i][11:5],p8,d2_in[i][4:2],p4,d2_in[i][1],p2,p1,p0};
 // flip one bit
-    flip[i] = $random(8);	  // 'b1000000;
+    flip[i] = $urandom;	  // 'b1000000;
     d2_bad1[i] = d2_good[i] ^ (1'b1<<flip[i]);
 // flip second bit about 25% of the time (flip2<16)		// 00_0010     1010
 // if flip2[5:4]!=0, flip2 will have no effect, and we'll have a one-bit flip
@@ -62,9 +62,9 @@ initial begin
   $display("start program 2");
   $display();
   for(int i=0; i<15; i++) begin
-    $displayb("GOOD ", d2_good[i]);
-    $displayb("BAD  ", d2_bad[i]);
-    $displayb({5'b0,d2_in[i]});
+    //$displayb("GOOD ", d2_good[i]);
+    //$displayb("BAD  ", d2_bad[i]);
+    //$displayb({5'b0,d2_in[i]});
     $writeb  (DUT.dm1.core[1+2*i]);
     $displayb(DUT.dm1.core[0+2*i]);
     if(flip2[i][5:4]) begin :sgl_err                           // single error scenario

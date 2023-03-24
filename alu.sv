@@ -7,14 +7,14 @@ module alu(
   output logic[7:0] rslt,
   output logic sc_o,     // shift_carry out
                pari,     // reduction XOR (output)
-			   zero,      // NOR (output)
+			   //zero,      // NOR (output)
 			   absj
 );
 
 always_comb begin 
   rslt = 'b0;            
   sc_o = 'b0;    
-  zero = !rslt;
+  //zero = !rslt;
   pari = ^rslt;
 
   case(alu_cmd)
